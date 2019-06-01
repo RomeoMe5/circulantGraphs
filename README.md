@@ -14,3 +14,7 @@ In this article, the feasibility of realization of optimal circulant topologies 
 1. A.Y. Romanov, **Development of routing algorithms in networks-on-chip based on ring circulant topologies**, Heliyon. 5 (2019) e01516.
 https://doi.org/10.1016/j.heliyon.2019.e01516   
 2. A.Y. Romanov, A.A. Amerikanov, E.V. Lezhnev, **Analysis of Approaches for Synthesis of Networks-on-chip by Using Circulant Topologies**, J. Phys. Conf. Ser. 1050 (2018). doi:10.1088/1742-6596/1050/1/012071. https://www.researchgate.net/publication/326643138_Analysis_of_Approaches_for_Synthesis_of_Networks-on-chip_by_Using_Circulant_Topologies   
+
+**csv files format:**   
+nodes count; graph signature; Diameter; average distance; generating time; connections count    
+Кол-во вершин;Конфигурация графа;Диаметр;Средний путь;Время (мс);Кол-во соединений
