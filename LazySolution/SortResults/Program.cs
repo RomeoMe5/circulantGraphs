@@ -16,7 +16,7 @@ namespace SortResults
     public class Graph
     {
         public int NodesCount;
-        public int[] Generatrixes;
+        public int[] Generators;
         public int Diameter;
         public double AverageLength;
         public int LinksCount;
@@ -24,12 +24,12 @@ namespace SortResults
 
         public override int GetHashCode()
         {
-            return NodesCount.GetHashCode() + Generatrixes.Sum().GetHashCode() + Diameter.GetHashCode() + AverageLength.GetHashCode();
+            return NodesCount.GetHashCode() + Generators.Sum().GetHashCode() + Diameter.GetHashCode() + AverageLength.GetHashCode();
         }
 
         public override string ToString()
         {
-            return $"\"C({NodesCount}; {string.Join(", ", Generatrixes)})\";{Diameter};{AverageLength};{LinksCount};{Time}";
+            return $"\"C({NodesCount}; {string.Join(", ", Generators)})\";{Diameter};{AverageLength};{LinksCount};{Time}";
         }
     }
 
@@ -87,7 +87,7 @@ namespace SortResults
                     }
 
                     var a = 2;
-                    var lastSub = $"C(n; 1, {string.Join(", ", sOneGraph.Value.First().Value.Generatrixes.Skip(1).Select(x => $"s{a++}"))})";
+                    var lastSub = $"C(n; 1, {string.Join(", ", sOneGraph.Value.First().Value.Generators.Skip(1).Select(x => $"s{a++}"))})";
 
                     if (!sub?.GetDirectories().Any(x => x.Name.Equals(lastSub)) ?? false)
                     {
@@ -114,18 +114,18 @@ namespace SortResults
                         var sort = group.ToList();
                         sort.Sort((first, second) =>
                         {
-                            for (int i = 0; i < first.Value.Generatrixes.Length; i++)
+                            for (int i = 0; i < first.Value.Generators.Length; i++)
                             {
-                                if (first.Value.Generatrixes[i] > second.Value.Generatrixes[i] || first.Value.Generatrixes[i] < second.Value.Generatrixes[i])
+                                if (first.Value.Generators[i] > second.Value.Generators[i] || first.Value.Generators[i] < second.Value.Generators[i])
                                 {
-                                    return first.Value.Generatrixes[i] - second.Value.Generatrixes[i];
+                                    return first.Value.Generators[i] - second.Value.Generators[i];
                                 }
                             }
 
                             return 0;
                         });
 
-                        File.AppendAllLines(Path.Combine(sub.FullName, $"C({group.First().Value.NodesCount}; {string.Join(", ", sOneGraph.Value.First().Value.Generatrixes.Select(x => $"s{a++}")).Substring(1)}).csv"), sort.Select(x => x.Value.ToString()));
+                        File.AppendAllLines(Path.Combine(sub.FullName, $"C({group.First().Value.NodesCount}; {string.Join(", ", sOneGraph.Value.First().Value.Generators.Select(x => $"s{a++}")).Substring(1)}).csv"), sort.Select(x => x.Value.ToString()));
                     }
                 }
 
@@ -145,7 +145,7 @@ namespace SortResults
                     }
 
                     var a = 1;
-                    var lastSub = $"C(n; {string.Join(", ", optimalGraph.Value.First().Value.Generatrixes.Select(x => $"s{a++}"))})";
+                    var lastSub = $"C(n; {string.Join(", ", optimalGraph.Value.First().Value.Generators.Select(x => $"s{a++}"))})";
 
                     if (!sub?.GetDirectories().Any(x => x.Name.Equals(lastSub)) ?? false)
                     {
@@ -175,11 +175,11 @@ namespace SortResults
                         filteredGroup = filteredGroup.Where(x => x.Value.AverageLength <= minAvg).ToList();
                         filteredGroup.Sort((first, second) =>
                         {
-                            for (int i = 0; i < first.Value.Generatrixes.Length; i++)
+                            for (int i = 0; i < first.Value.Generators.Length; i++)
                             {
-                                if (first.Value.Generatrixes[i] > second.Value.Generatrixes[i] || first.Value.Generatrixes[i] < second.Value.Generatrixes[i])
+                                if (first.Value.Generators[i] > second.Value.Generators[i] || first.Value.Generators[i] < second.Value.Generators[i])
                                 {
-                                    return first.Value.Generatrixes[i] - second.Value.Generatrixes[i];
+                                    return first.Value.Generators[i] - second.Value.Generators[i];
                                 }
                             }
 
@@ -189,7 +189,7 @@ namespace SortResults
 
                         File.AppendAllLines(Path.Combine(sub.FullName, $"all_optCirc_gr{optimalGraph.Key}_n{minNodes}-{maxNodes}.csv"), new[] { filteredGroup.First().Value.ToString() });
                         a = 1;
-                        File.AppendAllLines(Path.Combine(sub.FullName, $"C({group.First().Value.NodesCount}; {string.Join(", ", filteredGroup.First().Value.Generatrixes.Select(x => $"s{a++}"))}).csv"), filteredGroup.Select(x => x.Value.ToString()));
+                        File.AppendAllLines(Path.Combine(sub.FullName, $"C({group.First().Value.NodesCount}; {string.Join(", ", filteredGroup.First().Value.Generators.Select(x => $"s{a++}"))}).csv"), filteredGroup.Select(x => x.Value.ToString()));
                     }
                 }
 
@@ -198,18 +198,10 @@ namespace SortResults
                 {
                     DirectoryInfo sub = null;
 
-                    var gradeRootDirectory = $"grade {2}";
+                    var gradeRootDirectory = "grade 2";
 
-                    if (directoryInfo.GetDirectories().Any(x => x.Name.Equals(gradeRootDirectory)))
-                    {
-                        sub = directoryInfo.GetDirectories().First(x => x.Name.Equals(gradeRootDirectory));
-                    }
-                    else
-                    {
-                        sub = directoryInfo.CreateSubdirectory(gradeRootDirectory);
-                    }
+                    sub = directoryInfo.GetDirectories().Any(x => x.Name.Equals(gradeRootDirectory)) ? directoryInfo.GetDirectories().First(x => x.Name.Equals(gradeRootDirectory)) : directoryInfo.CreateSubdirectory(gradeRootDirectory);
 
-                    var a = 1;
                     var lastSub = $"C(n; D, D-1)";
 
                     if (!sub?.GetDirectories().Any(x => x.Name.Equals(lastSub)) ?? false)
@@ -240,18 +232,16 @@ namespace SortResults
                         filteredGroup = filteredGroup.Where(x => x.Value.AverageLength <= minAvg).ToList();
                         filteredGroup.Sort((first, second) =>
                         {
-                            for (int i = 0; i < first.Value.Generatrixes.Length; i++)
+                            for (int i = 0; i < first.Value.Generators.Length; i++)
                             {
-                                if (first.Value.Generatrixes[i] > second.Value.Generatrixes[i] || first.Value.Generatrixes[i] < second.Value.Generatrixes[i])
+                                if (first.Value.Generators[i] > second.Value.Generators[i] || first.Value.Generators[i] < second.Value.Generators[i])
                                 {
-                                    return first.Value.Generatrixes[i] - second.Value.Generatrixes[i];
+                                    return first.Value.Generators[i] - second.Value.Generators[i];
                                 }
                             }
 
                             return 0;
                         });
-
-                        a = 1;
 
                         File.AppendAllLines(Path.Combine(sub.FullName, $"all_optCirc_gr{2}_n{minNodes}-{maxNodes}.csv"), new[] { group.First().Value.ToString() });
                     }
@@ -275,7 +265,7 @@ namespace SortResults
 
             log.Info($"Обработка файла: {filePath}");
 
-            var allStrings = File.ReadAllLines(filePath, Encoding.GetEncoding(1251));
+            var allStrings = File.ReadAllLines(filePath);
 
             if (allStrings.FirstOrDefault()?.Contains("Кол-во") ?? false)
             {
@@ -324,14 +314,14 @@ namespace SortResults
                         NodesCount = nodeCounts,
                         AverageLength = avgL,
                         Diameter = diam,
-                        Generatrixes = generatrixes,
+                        Generators = generatrixes,
                         LinksCount = linksCount == -1 ? nodeCounts * generatrixes.Length : linksCount,
                         Time = time
                     });
                 }
                 catch (Exception ex)
                 {
-                    log.Error($"Не удалось проанализировать строку {graphResult}", ex);
+                    log.Error($"Не удалось проанализировать строку (файл: {filePath}) {graphResult}", ex);
                 }
             }).IsCompleted) { }
 
@@ -340,9 +330,9 @@ namespace SortResults
 
         private static void AddToDictionary(Graph graph)
         {
-            var grade = graph.Generatrixes.Length;
+            var grade = graph.Generators.Length;
 
-            if (graph.Generatrixes.First() == 1)
+            if (graph.Generators.First() == 1)
             {
                 if (!SOneGraphs.ContainsKey(grade))
                 {
@@ -379,7 +369,7 @@ namespace SortResults
             {
                 var d = Convert.ToInt32(Math.Round((Math.Pow(2 * graph.NodesCount - 1, .5) - 1) / 2d));
 
-                if (graph.Generatrixes.First() == d)
+                if (graph.Generators.First() == d)
                 {
                     DdGraphs.AddOrUpdate(graph.GetHashCode(), graph, (i, g) => DdGraphs[i].Time > g.Time ? g : graph);
                 }
