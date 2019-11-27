@@ -1,4 +1,5 @@
 # circulant-generators
+# Greed Circulants Generator (GCG) implementation
 
 ## Launch and configure the PCG Console program
 The program is launched by running PCG Console.exe. Without changing the configuration file, it will be launched with the basic parameters specified in the file.
