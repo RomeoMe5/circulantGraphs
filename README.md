@@ -3,7 +3,7 @@ Generating software: https://github.com/RomeoMe5/circulantGraphs/tree/master/PCG
 grade K -- count of the generatrices of the graph C(N; s1, s2, .., sk). 
 
 # ABOUT
-These are supplementary materials for   
+More information in the articles: 
 A.Y. Romanov, I.I. Romanova, A.Y. Glukhikh, **Development of a Universal Adaptive Fast Algorithm for the Synthesis of Circulant Topologies for Networks-on-Chip Implementations**, in: 2018 IEEE 38th Int. Conf. Electron. Nanotechnol., IEEE, Kyiv, 2018: pp. 110–115. doi:10.1109/ELNANO.2018.8477462.  
 https://ieeexplore.ieee.org/document/8477462/       
 
