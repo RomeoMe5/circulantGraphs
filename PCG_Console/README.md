@@ -1,4 +1,5 @@
-# circulant-generators
+# Russian instruction
+https://github.com/RomeoMe5/circulantGraphs/blob/master/PCG_Console/README_RUS.md
 # Greed Circulants Generator (GCG) implementation
 
 ## Launch and configure the PCG Console program
