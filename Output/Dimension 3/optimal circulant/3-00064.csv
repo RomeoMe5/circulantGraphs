@@ -1,2 +1,4 @@
+Сигнатура; Диаметр; Среднее расстояние; Время генерации; Кол-во соединений 
+Signature; Diameter; Average distance; Generation time; Number of connections 
 "C(64; 1, 4, 25)";4;2,60317;192;116786
 "C(64; 1, 23, 28)";4;2,60317;192;116786

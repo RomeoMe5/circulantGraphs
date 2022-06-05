@@ -1,4 +1,5 @@
-nodes count;graph signature;Diameter;average distance;generating time (ms);connections count
+Кол-во Образующих; Сигнатура; Диаметр; Среднее расстояние; Время генерации; Кол-во соединений 
+Count K; Signature; Diameter; Average distance; Generation time; Number of connections 
 24;C(24, 1, 2, 3, 4, 5, 6);2;1.478261;3;144
 24;C(24, 1, 2, 3, 4, 5, 7);2;1.478261;3;144
 24;C(24, 1, 2, 3, 4, 5, 8);2;1.478261;3;144
