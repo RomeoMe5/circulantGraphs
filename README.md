@@ -1,6 +1,17 @@
+**Проект разбит на папки:**
+Outuput - результаты моделирования топологий с различными параметрами
+PCG_Programm - программа для моделирования топологий
+visualization - графики сравнения различных топологий
+scripts - скрипты редактирования файлов
+**Project files:**
+Outuput - topology simulation results with different parameters
+PCG_Programm - program for modeling topologies
+visualization - graphs comparing different topologies
+scripts - files editing scripts
+
 # Optimal circulant graphs generating results dataset   
 Generating software: https://github.com/RomeoMe5/circulantGraphs/tree/master/PCG_Console    
-grade K -- count of the generatrices of the graph C(N; s1, s2, .., sk). 
+grade K -- count of the generatrices of the graph C(N; s1, s2, .., sk).
 
 # Video about GCG
 https://github.com/RomeoMe5/circulantGraphs/blob/master/GCG_Romanov_Glukhikh_2020_compressed.mp4
@@ -21,3 +32,9 @@ https://doi.org/10.1016/j.heliyon.2019.e01516
 **csv files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
 Кол-во вершин;Конфигурация графа;Диаметр;Средний путь;Время (мс);Кол-во соединений
+
+Для отдельных файло (более ранняя версия программы)
+
+**csv files format:**   
+signature; Diameter; average distance; generating time; connections count    
+Конфигурация графа;Диаметр;Средний путь;Время (мс);Кол-во соединений
