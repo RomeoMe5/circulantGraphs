@@ -60,8 +60,7 @@ https://doi.org/10.1016/j.heliyon.2019.e01516
 **csv files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
 Кол-во вершин;Конфигурация графа;Диаметр;Средний путь;Время (мс);Кол-во соединений    
-**Для устаревших версий программы**   
-Для отдельных файлов (более ранняя версия программы)      
+**Для устаревших версий программы**      
 **csv files format:**   
 signature; Diameter; average distance; generating time; connections count    
 Конфигурация графа;Диаметр;Средний путь;Время (мс);Кол-во соединений
