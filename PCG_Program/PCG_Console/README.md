@@ -1,12 +1,12 @@
 # ENG 
+## circulant-generators       
 **Click on the executable file to run the program**  
-# circulant-generators
-# Greed Circulants Generator (GCG) implementation
+**Greed Circulants Generator (GCG) implementation**      
 
-## Launch and configure the PCG Console program
+**Launch and configure the PCG Console program**      
 The program is launched by running PCG Console.exe. Without changing the configuration file, it will be launched with the basic parameters specified in the file.
 
-## Configuration
+**Configuration**      
 
 There are several ways to change the input / output of information.
 
@@ -50,7 +50,7 @@ In this case, the program will save the intermediate results. With the same file
 If laststate.xml remains after starting the task with other parameters (number of nodes, number of generators), you need to delete the file, otherwise there will be errors when starting.
 Upon completion of the program (successful or unsuccessful) .csv files (only if successful) and .bin appear in the  (Output) folder.
 
-
+***
 # RUS
 **Для запуска программы кликните на исполняемый файл**      
 
