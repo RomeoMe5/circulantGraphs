@@ -2,7 +2,7 @@
 **Directories**   
 **optimal circulant** - variations in the construction of topologies    
 **optimal circulant ring** - variations in the construction of ring search topologies   
-**Results of topologies with  nodes count 3*   
+**Results of topologies with  nodes count 3**   
 **Csv files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
 ### For deprecated output files   
