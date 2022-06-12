@@ -1,13 +1,13 @@
 # ENG
-**Partition Files**     
-**Diametr_v4,v5** - visualization of  diametrs' length dependence on several parameters of simulation       
-**GCG_Romanov_Glukhikh_2020_compressed** - video about algorithm        
-**Srednee_rasstoyanie_v4,v5**- visualization of routing length dependence on several parameters of simulation    
-**routring** - visualization of routings algorithm
+**Files:**     
+**Diametr_v4, v5** - visualization of  diameters length dependence on N       
+**GCG_Romanov_Glukhikh_2020_compressed** - video about GCG        
+**Srednee_rasstoyanie_v4,v5**- visualization of average length dependence on N    
+**routing** - visualization of routings algorithm
 ***
 # RUS
-**Файлы раздела**   
-**Diametr_v4,v5** - визуализация зависимости длины диаметров от нескольких параметров моделирования
-**GCG_Romanov_Glukhikh_2020_compressed** - видео об алгоритме
-**Среднее_расстояние_v4,v5**- визуализация зависимости длины трассы от нескольких параметров моделирования
-**routing** - визуализация алгоритма построения 
+**Файлы:**   
+**Diametr_v4,v5** - визуализация зависимости диаметра от количества узлов
+**GCG_Romanov_Glukhikh_2020_compressed** - видео о генераторе
+**Среднее_расстояние_v4,v5**- визуализация зависимости среднего расстояния между узлами от кол-ва узлов
+**routing** - визуализация алгоритма маргрутизации 
