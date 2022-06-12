@@ -1,22 +1,18 @@
 # ENG
-**Directories**   
-     
-**optimal circulant** - variations in the construction of  search topologies  
+**Directories:**   
+**optimal circulant** - C(N; s1, s2, s3, s4, s5, s6, s7, s8)       
 
 
-**Results of topologies with  nodes count 8**  
-
-**Csv files format:**   
+**CSV files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
-### For deprecated output files   
+### For old output files   
 **Csv files format:**   
-signature; Diameter; average distance; generating time; connections count   
+signature; Diameter; average distance; generating time; connections count  
 ***
 # RUS
-**Папки**      
-**optimal circulant** - вариации построения  топологий различной длины    
+**Папки**    
+**optimal circulant** - C(N; s1, s2, s3, s4, s5, s6, s7, s8), оптимальные циркулянты       
 
-**Результаты топологий с количеством вершин 8**   
 
 **csv files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
@@ -25,3 +21,4 @@ nodes count; graph signature; Diameter; average distance; generating time; conne
 **csv files format:**   
   signature; Diameter; average distance; generating time; connections count   
   Конфигурация графа;Диаметр;Средний путь;Время (мс);Кол-во соединений 
+
