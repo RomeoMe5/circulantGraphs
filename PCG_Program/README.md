@@ -6,7 +6,7 @@ PCG_Console - Compiled program
 PCG-Sources - program source files    
 source-results - folder for storing files (deprecated)    
 
-***
+
 # RUS 
 ***
 **Папки:**    
