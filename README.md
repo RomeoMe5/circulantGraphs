@@ -15,7 +15,7 @@ master/Output
 Dimension K -- count of the generatrices of the graph C(N; s1, s2, .., sk).		
 
 ## Video about GCG
-https://github.com/RomeoMe5/circulantGraphs/blob/master/GCG_Romanov_Glukhikh_2020_compressed.mp4
+master/visualization/GCG_Romanov_Glukhikh_2020_compressed.mp4
 
 ## ABOUT
 More additional information about the first version of the GCG in the articles:     
