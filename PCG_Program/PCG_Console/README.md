@@ -45,7 +45,7 @@ The executor configures the file (by default, it is located in the Input folder 
 For the correct termination of the program and for saving the results, type **"stop"**. 
 In this case, the program will save the intermediate results. With the same file configuration, the program will continue to work the next time it starts from a breakpoint. Results are saved in laststate.xml.
 If laststate.xml remains after starting the task with other parameters (number of nodes, number of generators), you need to delete the file, otherwise there will be errors when starting.
-Upon completion of the program (successful or unsuccessful) .csv files (only if successful) and .bin appear in the  (Output) folder.
+Upon completion of the program (successful or unsuccessful) .csv files (only if successful) and .bin appear in the  (**Output**) folder.
 
 ***
 # RUS
@@ -83,7 +83,7 @@ Upon completion of the program (successful or unsuccessful) .csv files (only if 
 
 **fullName**  **–** Имя исполнителя. Может также быть какое-то уникальное имя, используется при составлении отчета.
 
-**output**  **–** куда сохранять данные. Данные сохраняются в специализированном формате, и для получения в «форматированном» состоянии, необходимо использовать программу, которую я выдал Романову А.Ю. (лежит на его GitHub).
+**output**  **–** куда сохранять данные.
 
 **isFullLogging** – полное логирование всего процесса синтеза в .csv-файл. Пока не работает.
 
