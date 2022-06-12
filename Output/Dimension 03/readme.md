@@ -1,7 +1,7 @@
 # ENG
 **Directories:**   
 **optimal circulant** - C(N; s1, s2, s3)       
-**optimal circulant ring** - C(N; s1==1, s2, s3)  
+**ring circulant optimal** - C(N; s1==1, s2, s3)  
 
 **CSV files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
@@ -12,7 +12,7 @@ signature; Diameter; average distance; generating time; connections count
 # RUS
 **Папки**    
 **optimal circulant** - C(N; s1, s2, s3), оптимальные циркулянты       
-**optimal circulant ring** - C(N; s1==1, s2, s3), кольцевые циркулянты, где первая образующая = 1  
+**ring circulant optimal** - C(N; s1==1, s2, s3), кольцевые циркулянты, где первая образующая = 1  
 
 **csv files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
