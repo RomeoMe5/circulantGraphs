@@ -1,5 +1,9 @@
-**для запуска программы кликните на исполняемый файл**
-**click on the executable file to run the program**
+# ENG 
+**Click on the executable file to run the program**     
+
+
+# RUS
+**Для запуска программы кликните на исполняемый файл**      
 
 
 # Задание:
