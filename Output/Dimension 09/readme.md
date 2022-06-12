@@ -1,21 +1,18 @@
 # ENG
-**Directories**   
-**optimal circulant** - variations in the construction of topologies       
+**Directories:**   
+**optimal circulant** - C(N; s1, s2, s3, s4, s5, s6, s7, s8, s9)       
 
 
-**Results of topologies with  nodes count 9**  
-
-**Csv files format:**   
+**CSV files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
-### For deprecated output files   
+### For old output files   
 **Csv files format:**   
-signature; Diameter; average distance; generating time; connections count   
+signature; Diameter; average distance; generating time; connections count  
 ***
 # RUS
 **Папки**    
-**optimal circulant** - вариации построения топологий различной длины     
+**optimal circulant** - C(N; s1, s2, s3, s4, s5, s6, s7, s8, s9), оптимальные циркулянты       
 
-**Результаты топологий с количеством вершин 9**   
 
 **csv files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
