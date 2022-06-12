@@ -1,23 +1,18 @@
 # ENG
-**Directories**   
-**optimal circulant** - variations in the construction of topologies       
-**optimal circulant ring** - variations in the construction of ring search topologies  
+**Directories:**   
+**optimal circulant** - C(N; s1, s2, s3, s4, s5)       
+**ring circulant optimal** - C(N; s1==1, s2, s3, s4, s5)  
 
-
-**Results of topologies with  nodes count 5**  
-
-**Csv files format:**   
+**CSV files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
-### For deprecated output files   
+### For old output files   
 **Csv files format:**   
-signature; Diameter; average distance; generating time; connections count   
+signature; Diameter; average distance; generating time; connections count  
 ***
 # RUS
 **Папки**    
-**optimal circulant** - вариации построения топологий различной длины     
-**ring optimal circulant** - вариации построения кольецвых топологий различной длины    
-
-**Результаты топологий с количеством вершин 5**   
+**optimal circulant** - C(N; s1, s2, s3, s4, s5), оптимальные циркулянты       
+**ring circulant optimal** - C(N; s1==1, s2, s3, s4, s5), кольцевые циркулянты, где первая образующая = 1  
 
 **csv files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
