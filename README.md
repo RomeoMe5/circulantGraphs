@@ -1,13 +1,18 @@
 # ENG
+
+## GCG: Greedy Circulants Generator. Optimal circulants dataset		
 **Project files:**    
-**Outuput** - topology simulation results with different parameters   
+**Output** - DATASET: topology simulation results with different parameters   
 **PCG_Programm** - program for modeling topologies    
 **visualization** - graphs comparing different topologies   
 **scripts** - files editing scripts   
 
-## Optimal circulant graphs generating results dataset   
-Generating software: https://github.com/RomeoMe5/circulantGraphs/tree/master/PCG_Console    
-grade K -- count of the generatrices of the graph C(N; s1, s2, .., sk).
+## Generator   
+Generating software: master/PCG_Console    
+
+## Dataset		
+master/Output		
+Dimension K -- count of the generatrices of the graph C(N; s1, s2, .., sk).		
 
 ## Video about GCG
 https://github.com/RomeoMe5/circulantGraphs/blob/master/GCG_Romanov_Glukhikh_2020_compressed.mp4
@@ -25,9 +30,10 @@ In this article, the feasibility of realization of optimal circulant topologies 
 https://doi.org/10.1016/j.heliyon.2019.e01516   
 2. A.Y. Romanov, A.A. Amerikanov, E.V. Lezhnev, **Analysis of Approaches for Synthesis of Networks-on-chip by Using Circulant Topologies**, J. Phys. Conf. Ser. 1050 (2018). doi:10.1088/1742-6596/1050/1/012071. https://www.researchgate.net/publication/326643138_Analysis_of_Approaches_for_Synthesis_of_Networks-on-chip_by_Using_Circulant_Topologies   
 
-**Csv files format:**   
+**CSV files format:**
+new format: 		   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
-**For deprecated output files**   
+**For old format output files**   
 signature; Diameter; average distance; generating time; connections count 
 ***
 # RUS
