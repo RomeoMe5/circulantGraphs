@@ -37,6 +37,7 @@ nodes count; graph signature; Diameter; average distance; generating time; conne
 signature; Diameter; average distance; generating time; connections count 
 ***
 # RUS
+## Датасет оптимальных циркулянтов. Генерирующее ПО
 **Файлы проекта:**    
 **Output** - ДАТАСЕТ Циркулянтов с разными параметрами. C(N; s1, s2, .., sk), Dimension (кол-во образующих) = k, N - количество узлов.    	
 **PCG_Programm** - программа для генерации топологий, там же исходники    
