@@ -3,6 +3,13 @@
 **COULD WORK AS IS.**               
 The program is launched by running PCG Console.exe. Without changing the configuration file, it will be launched with the basic parameters specified in the file.
 
+## Files:       
+**PCG Console.exe** - main application      
+**Input** - Folder for input parameters in XML format       
+**Output** - Folder with results        
+**RawData** - Intermediate results of the program, if its work is suspended     
+**laststate.xml** - the last state on which the generator stopped       
+
 ## Configuration         
 
 There are several ways to change the input / output of information.
@@ -49,9 +56,16 @@ Upon completion of the program (successful or unsuccessful) .csv files (only if 
 
 ***
 # RUS
-# Запуск и конфигурация программы PCG Console
+## Запуск и конфигурация программы PCG Console
 Работает из коробки.            
 Запуск программы выполняется посредством запуска PCG Console.exe. Без изменения файла конфигурации будет запущена с базовыми параметрами, указанными в файле.
+
+## Файлы:		        
+**PCG Console.exe** - основное приложение		        
+**Input** - Папка для входных параметров в формате XML		         
+**Output** - Папка с результатами 		        
+**RawData** - Промежуточные результаты работы программы, если ее работа приостановлена 		        
+**laststate.xml** - последнее состояние, нак октором остановился генератор		        
 
 ## Изменение конфигурации
 
