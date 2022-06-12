@@ -1,12 +1,10 @@
 # ENG 
-## circulant-generators       
-**Click on the executable file to run the program**  
-**Greed Circulants Generator (GCG) implementation**      
+        
 
-**Launch and configure the PCG Console program**      
+##Launch and configure the PCG Console program**      
 The program is launched by running PCG Console.exe. Without changing the configuration file, it will be launched with the basic parameters specified in the file.
 
-**Configuration**      
+##Configuration**      
 
 There are several ways to change the input / output of information.
 
@@ -52,9 +50,6 @@ Upon completion of the program (successful or unsuccessful) .csv files (only if 
 
 ***
 # RUS
-**Для запуска программы кликните на исполняемый файл**      
-
-
 # Запуск и конфигурация программы PCG Console
 
 Запуск программы выполняется посредством запуска PCG Console.exe. Без изменения файла конфигурации будет запущена с базовыми параметрами, указанными в файле.
