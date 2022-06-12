@@ -1,8 +1,7 @@
 # ENG
-**Directories**   
-**optimal circulant** - variations in the construction of topologies       
-**optimal circulant ring** - variations in the construction of ring search topologies  
-
+**Directories:**   
+**optimal circulant** - C(N; s1, s2)       
+**optimal circulant ring** - C(N; s1==1, s2)  
 
 **Results of topologies with  nodes count 2**  
 
