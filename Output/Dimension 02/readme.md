@@ -10,7 +10,8 @@
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
 ### For deprecated output files   
 **Csv files format:**   
-signature; Diameter; average distance; generating time; connections count   
+signature; Diameter; average distance; generating time; connections count  
+***
 # RUS
 **Папки**    
 **optimal circulant** - вариации построения топологий различной длины     
