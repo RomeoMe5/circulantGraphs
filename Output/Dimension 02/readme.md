@@ -6,7 +6,7 @@
 
 **CSV files format:**   
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
-### For deprecated output files   
+### For old output files   
 **Csv files format:**   
 signature; Diameter; average distance; generating time; connections count  
 ***
