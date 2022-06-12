@@ -4,7 +4,8 @@
 nodes count; graph signature; Diameter; average distance; generating time; connections count    
 ## For old-format output files   
 **CSV files format:**   
-signature; Diameter; average distance; generating time; connections count   
+signature; Diameter; average distance; generating time; connections count     
+***
 # RUS     
 **Топологии с различным количеством вершин  (2-10)**   
 **CSV files format:**   
