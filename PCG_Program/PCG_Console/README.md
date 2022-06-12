@@ -1,10 +1,9 @@
-# ENG 
-        
-
-##Launch and configure the PCG Console program**      
+# ENG      
+## Launch and configure the PCG Console program      
+COULD WORK AS IS.               
 The program is launched by running PCG Console.exe. Without changing the configuration file, it will be launched with the basic parameters specified in the file.
 
-##Configuration**      
+## Configuration         
 
 There are several ways to change the input / output of information.
 
@@ -51,7 +50,7 @@ Upon completion of the program (successful or unsuccessful) .csv files (only if 
 ***
 # RUS
 # Запуск и конфигурация программы PCG Console
-
+Работает из коробки.            
 Запуск программы выполняется посредством запуска PCG Console.exe. Без изменения файла конфигурации будет запущена с базовыми параметрами, указанными в файле.
 
 ## Изменение конфигурации
@@ -109,8 +108,9 @@ Upon completion of the program (successful or unsuccessful) .csv files (only if 
 Если остался laststate.xml после запуска задачи с другими параметрами (кол-во узлов, кол-во образующих), необходимо файл удалить, иначе возникнут ошибки при запуске.
 
 По завершению работы программы (успешного или не успешного) в папке **Output** появятся файлы  .csv (только в случае успешного завершения) и .bin.      
-# Задание:
 
+# Задание:
+**(Для тех, кто хочет пополнить датасет результатами новых генераций)**
 1. Выбрать параметры генерации из [файла с заданиями](https://docs.google.com/spreadsheets/d/10N8XH53xGTVuzbEtp1AKWbubBUpvprfqvThP8Bm6G_Y/edit?usp=sharing), указав свои ФИО и группу напротив него. Если Вы взяли чужое задание, то баллы получит другой человек. Файл постоянно пополняется. Одновременно можно выполнять только 1 задание.
 2. Скачать PCGConsole.
 3. Настроить генератор и запустить (nodesDescription можно разбивать на части. Например, если надо сгенерировать графы от 530 до 1024, то можно разбить диапазон на части и генерировать в несколько сессий: 530-600, 601-700 и т.д.). Процесс генерации может быть длительным. В мануале ниже дано описание, как можно прервать и продолжить процесс генерации.        
