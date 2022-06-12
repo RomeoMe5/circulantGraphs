@@ -1,5 +1,5 @@
 # ENG 
-**DEPRECATED OUPUT PROGRAMM FILES**   
+**OLD OUPUT PROGRAMM FILES**   
 ***
 # RUS 
-**УСТАРЕВШИЕ ВЫХОДНЫЕ ФАЙЛЫ ПРОГРАММЫ**   
+**СТАРЫЕ ВЫХОДНЫЕ ФАЙЛЫ ПРОГРАММЫ**   
