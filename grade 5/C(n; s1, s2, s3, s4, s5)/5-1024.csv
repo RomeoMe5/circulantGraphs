@@ -1,4 +1,0 @@
-nodes count;graph signature;Diameter;average distance;generating time (ms);connections count
-1024;C(1024, 1, 38, 70, 393, 481);5;4.072336;483702095;5120
-1024;C(1024, 1, 103, 138, 185, 362);5;4.072336;483702095;5120
-1024;C(1024, 1, 169, 230, 262, 479);5;4.072336;483702095;5120
