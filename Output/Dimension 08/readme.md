@@ -1,7 +1,7 @@
 # ENG
 **Directories**   
      
-**optimal circulant ring** - variations in the construction of ring search topologies  
+**optimal circulant** - variations in the construction of  search topologies  
 
 
 **Results of topologies with  nodes count 8**  
@@ -14,7 +14,7 @@ signature; Diameter; average distance; generating time; connections count
 ***
 # RUS
 **Папки**      
-**ring optimal circulant** - вариации построения кольецвых топологий различной длины    
+** optimal circulant** - вариации построения  топологий различной длины    
 
 **Результаты топологий с количеством вершин 8**   
 
