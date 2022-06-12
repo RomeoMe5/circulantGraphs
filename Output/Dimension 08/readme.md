@@ -14,7 +14,7 @@ signature; Diameter; average distance; generating time; connections count
 ***
 # RUS
 **Папки**      
-** optimal circulant** - вариации построения  топологий различной длины    
+**optimal circulant** - вариации построения  топологий различной длины    
 
 **Результаты топологий с количеством вершин 8**   
 
