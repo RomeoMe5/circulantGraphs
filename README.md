@@ -8,7 +8,7 @@
 **scripts** - files editing scripts   
 
 ## Generator   
-Generating software: master/PCG_Console    
+Generating software: master/PCG_Program/PCG_Console    
 
 ## Dataset		
 master/Output		  
