@@ -11,7 +11,7 @@
 Generating software: master/PCG_Console    
 
 ## Dataset		
-master/Output		
+master/Output		  
 Dimension K -- count of the generatrices of the graph C(N; s1, s2, .., sk).		
 
 ## Video about GCG
@@ -37,11 +37,11 @@ nodes count; graph signature; Diameter; average distance; generating time; conne
 signature; Diameter; average distance; generating time; connections count 
 ***
 # RUS
-**Файлы проекта:**
-**Outuput** - результаты моделирования топологии с разными параметрами    
-**PCG_Programm** - программа для моделирования топологий    
-**визуализация** - графики сравнения различных топологий    
-**scripts** - скрипты редактирования файлов   
+**Файлы проекта:**    
+**Output** - ДАТАСЕТ Циркулянтов с разными параметрами. C(N; s1, s2, .., sk), Dimension (кол-во образующих) = k, N - количество узлов.    	
+**PCG_Programm** - программа для генерации топологий, там же исходники    
+**Visualization** - графики сравнения различных топологий    
+**Scripts** - скрипты для редактирования файлов   
 ## Оптимальные циркулянтные графы, генерирующие набор данных результатов
 Создание программного обеспечения: https://github.com/RomeoMe5/circulantGraphs/tree/master/PCG_Console
 столбец K -- количество образующих графа C(N; s1, s2, .., sk).
