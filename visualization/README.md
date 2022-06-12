@@ -1,5 +1,5 @@
-**Файлы раздела**
+**Файлы раздела**   
 Различные графики программы - подписаны
-
-**Partition Files**
+    
+**Partition Files**   
 Various schedules of the program - signed
