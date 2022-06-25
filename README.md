@@ -2,7 +2,7 @@
 
 ## GCG: Greedy Circulants Generator. Optimal circulants dataset		
 **Project files:**    
-**Dataset** - DATASET: topology simulation results with different parameters   
+**Dataset** - DATASET: topologies generation results with different parameters   
 **PCG_Programm** - Program for circulants generation, source codes    
 **Visualization** - graphs comparing different topologies   
 **Scripts** - files editing scripts   
