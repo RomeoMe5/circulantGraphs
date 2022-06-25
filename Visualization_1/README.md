@@ -1,6 +1,6 @@
 # ENG
 **Files:**     
-**Diametr_v4, v5** - visualization of  diameters length dependence on N       
+**Diametr_v4, v5** - visualization of  diameters length dependence on N (nodes count)       
 **GCG_Romanov_Glukhikh_2020_compressed** - video about GCG        
 **Srednee_rasstoyanie_v4,v5**- visualization of average length dependence on N    
 **routing** - visualization of routings algorithm

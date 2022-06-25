@@ -1,7 +1,7 @@
 # ENG   
 **Files:**    
-**Script.py** - replacing columns in output files   
-**Title converter** - replacement of output files names   
+**Script.py** - replacing columns in output files (service)   		
+**Title converter** - replacement of output files names (service) 		  
 ***
 # RUS 
 **Файлы:**    
