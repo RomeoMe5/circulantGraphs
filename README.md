@@ -11,7 +11,7 @@
 Generating software: master/PCG_Program/PCG_Console    
 
 ## Dataset		
-master/Output		  
+master/Dataset		  
 Dimension K -- count of the generatrices of the graph C(N; s1, s2, .., sk).		
 
 ## Video about GCG
