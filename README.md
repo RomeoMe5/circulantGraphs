@@ -1,6 +1,6 @@
 # ENG
 
-## GCG: Greedy Circulants Generator. Optimal circulants dataset		
+## PCG: Program Circulants Generator (implements GCG - Greedy Circulants Generation method). Optimal circulants dataset		
 **Project files:**    
 **Dataset** - DATASET: topologies generation results with different parameters   
 **PCG_Programm** - Program for circulants generation, source codes    
@@ -37,7 +37,7 @@ nodes count; graph signature; Diameter; average distance; generating time; conne
 signature; Diameter; average distance; generating time; connections count 
 ***
 # RUS
-## Датасет оптимальных циркулянтов. Генерирующее ПО
+## Датасет оптимальных циркулянтов. ПО для синтеза оптимальных циркулянтов
 **Файлы проекта:**    
 **Output** - ДАТАСЕТ Циркулянтов с разными параметрами. C(N; s1, s2, .., sk), Dimension (кол-во образующих) = k, N - количество узлов.    	
 **PCG_Programm** - программа для генерации топологий, там же исходники    
