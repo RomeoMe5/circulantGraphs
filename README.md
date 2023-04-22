@@ -17,7 +17,10 @@ Dimension K -- count of the generatrices of the graph C(N; s1, s2, .., sk).
 ## Video about GCG
 master/visualization/GCG_Romanov_Glukhikh_2020_compressed.mp4
 
-## ABOUT
+## ABOUT    
+Resent ARTICLE: http://dx.doi.org/10.3390/bdcc7020080     
+A. Romanov, “The Dataset for Optimal Circulant Topologies,” Big Data and Cognitive Computing, vol. 7, no. 2, p. 80, Apr. 2023.    
+    
 More additional information about the first version of the GCG in the articles:     
 A.Y. Romanov, I.I. Romanova, A.Y. Glukhikh, **Development of a Universal Adaptive Fast Algorithm for the Synthesis of Circulant Topologies for Networks-on-Chip Implementations**, in: 2018 IEEE 38th Int. Conf. Electron. Nanotechnol., IEEE, Kyiv, 2018: pp. 110–115. doi:10.1109/ELNANO.2018.8477462.  
 https://ieeexplore.ieee.org/document/8477462/       
@@ -51,6 +54,8 @@ signature; Diameter; average distance; generating time; connections count
 https://github.com/RomeoMe5/circulantGraphs/blob/master/GCG_Romanov_Glukhikh_2020_compressed.mp4
 
 ## Дополнительная информация
+Статья про даатсет: http://dx.doi.org/10.3390/bdcc7020080     
+A. Romanov, “The Dataset for Optimal Circulant Topologies,” Big Data and Cognitive Computing, vol. 7, no. 2, p. 80, Apr. 2023.    
 Больше дополнительной информации о первой версии GCG в статьях:
 А.Ю. Романов, И.И. Романова, А.Ю. Глухих, **Разработка универсального адаптивного быстрого алгоритма синтеза циркулирующих топологий для реализаций сетей на кристалле**, в: 2018 IEEE 38th Int. конф. Электрон. Нанотехнологии., IEEE, Киев, 2018. С. 110–115. doi: 10.1109/ELNANO.2018.8477462.
 https://ieeexplore.ieee.org/document/8477462/
