@@ -24,6 +24,7 @@ A. Romanov, “**The Dataset for Optimal Circulant Topologies**,” Big Data and
 More additional information about the first version of the GCG in the articles:     
 A.Y. Romanov, I.I. Romanova, A.Y. Glukhikh, **Development of a Universal Adaptive Fast Algorithm for the Synthesis of Circulant Topologies for Networks-on-Chip Implementations**, in: 2018 IEEE 38th Int. Conf. Electron. Nanotechnol., IEEE, Kyiv, 2018: pp. 110–115. doi:10.1109/ELNANO.2018.8477462.  
 https://ieeexplore.ieee.org/document/8477462/       
+Addidtional C(N; 1, s1) dataset: https://github.com/mila0411/Double-loop-networks/tree/main        
 
 **Abstract:**   
 In this article, the feasibility of realization of optimal circulant topologies in networks-on-chip was researched. The software for automating the synthesis of circulant topologies of various dimensions and of any number of generatrices is presented. The implemented methods to speed up the synthesis process, based on the properties of circulants, as well as improving the algorithm for calculation of the distance between nodes and caching the adjacency matrix to achieve an acceptable search speed, are proposed. The efficiency and correctness of the proposed algorithm were verified. The proposed algorithm and methods allow designing networks-on-chip with improved characteristics of diameter, average distance between nodes, edges count, and, as a result, reducing the area, occupied by network-on-chip, and other characteristics, in comparison with analogues based on other widespread regular topologies.    
