@@ -58,7 +58,7 @@ https://github.com/RomeoMe5/circulantGraphs/blob/master/GCG_Romanov_Glukhikh_202
 Статья про датасет: http://dx.doi.org/10.3390/bdcc7020080     
 A. Romanov, “**The Dataset for Optimal Circulant Topologies**,” Big Data and Cognitive Computing, vol. 7, no. 2, p. 80, Apr. 2023.    
 Больше дополнительной информации о первой версии GCG в статьях:
-А.Ю. Романов, И.И. Романова, А.Ю. Глухих, **Разработка универсального адаптивного быстрого алгоритма синтеза циркулирующих топологий для реализаций сетей на кристалле**, в: 2018 IEEE 38th Int. конф. Электрон. Нанотехнологии., IEEE, Киев, 2018. С. 110–115. doi: 10.1109/ELNANO.2018.8477462.
+A.Y. Romanov, I.I. Romanova, A.Y. Glukhikh, **Development of a Universal Adaptive Fast Algorithm for the Synthesis of Circulant Topologies for Networks-on-Chip Implementations**, in: 2018 IEEE 38th Int. Conf. Electron. Nanotechnol., IEEE, Kyiv, 2018: pp. 110–115. doi:10.1109/ELNANO.2018.8477462.  
 https://ieeexplore.ieee.org/document/8477462/
 
 **О статье:**
