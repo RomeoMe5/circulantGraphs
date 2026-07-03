@@ -1,3 +1,2 @@
-Сигнатура; Диаметр; Среднее расстояние; Время генерации; Кол-во соединений 
-Signature; Diameter; Average distance; Generation time; Number of connections 
-"C(282; 1, 74, 100)";6;4,39858;846;2037329
+N,K,S,diameter,averageShortestPathLength,edges
+282,3,C(282;1;74;100),6,4.3985765124555156,846

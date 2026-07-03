@@ -1,4 +1,3 @@
-Сигнатура; Диаметр; Среднее расстояние; Время генерации; Кол-во соединений 
-Signature; Diameter; Average distance; Generation time; Number of connections 
-"C(141; 1, 15, 50)";5;3,45714;423;159198
-"C(141; 1, 31, 42)";5;3,45714;423;159198
+N,K,S,diameter,averageShortestPathLength,edges
+141,3,C(141;1;15;50),5,3.4571428571428573,423
+141,3,C(141;1;31;42),5,3.4571428571428573,423
